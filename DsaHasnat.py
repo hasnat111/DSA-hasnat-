@@ -96,7 +96,7 @@ Suppose we have a sorted list of numbers: `[1, 2, 3, 4, 5, 6, 7, 8, 9]`
 If we search for the number `5` using Binary Search:
 
 1. The algorithm starts by checking the middle element (`5`).
-2. Since `5` is the target element, the algorithm returns the index `4`.
+2. Since `5` is the target element, the algorithm returns the index `4`..
 
 In this example, Binary Search finds the target element in just one step, demonstrating its efficiency.
 
