@@ -1,0 +1,45 @@
+BINARY SEARCH 
+def Binary_Search(a, target_value):
+    left = 0
+    right = len(a) - 1
+
+    while left <= right:
+        mid = (left + right) // 2
+
+        if a[mid] == target_value:
+            return mid
+        
+        if a[mid] < target_value:
+            left = mid + 1
+        else:
+            right = mid - 1
+
+    return -1
+
+My_Array = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+My_Target = 15
+
+result = Binary_Search(My_Array, My_Target)
+
+if result != -1:
+    print("Value",My_Target,"found at index", result)
+else:
+    print("Target not found in array.")
+
+///////
+LINEAR SEARCH 
+def Search_Linear(array, value):
+    for index in range(len(array)):
+        if array[index] == value:
+            return index
+    return -1
+
+My_Numbers = [3, 7, 2, 9, 5]
+Search_Value = 9
+
+Search_Result = Search_Linear(My_Numbers, Search_Value)
+
+if Search_Result != -1:
+    print(f"Value {Search_Value} is located at index {Search_Result}")
+else:
+    print(f"Value {Search_Value} is not present in the array")
