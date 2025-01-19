@@ -1,7 +1,5 @@
-Binary-and-Linear-Search
 Overview
-This project showcases the implementation of two fundamental searching algorithms in computer science: Binary Search and Linear Search. These algorithms are designed to efficiently locate a target value within an array or list, with each method demonstrating different approaches and time complexities.
-
+This project showcases the implementation of two fundamental searching algorithms in computer science: Binary Search and Linear Search. These algorithms are designed to efficiently locate a target value within an array or list, with each method demonstrating different approaches and time complexities
 Purpose of the Code
 The primary goal of this project is to illustrate how to implement and utilize the Binary Search and Linear Search algorithms. By exploring these methods, you can gain a better understanding of the key principles behind data searching and algorithm efficiency.
 
@@ -32,6 +30,7 @@ Worst Case: ( O(n) ) - If the target is the last element or not present in the a
 Binary Search
 Best Case: ( O(1) ) - If the middle element matches the target.
 Worst Case: ( O(\log n) ) - For sorted arrays, the search range is halved on each iteration.
+
 Example Scenarios
 Binary Search
 Input:
